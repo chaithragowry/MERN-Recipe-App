@@ -1,0 +1,103 @@
+.mainpage{
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: white;
+
+}
+.sub-left{
+    height: 100%;
+    width:60%;
+    box-shadow: 3px 4px 4px 3px rgb(222, 223, 224);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+    
+ }
+h2{
+    margin-top: 35px;
+    margin-left: 50px;
+    color:#05386b;
+    text-align: center;
+    font-size: 26px;
+}
+.mainpage img{
+    height: 160px;
+    width:200px;
+    border-radius: 50px 0px 90px 0px;
+    margin-right: -200px;
+    position: relative;
+
+}
+label{
+    margin-left: 50px;
+    color:#05386b;
+    font-size:18px;
+    margin-bottom: 5px;
+    transition:0.4s;
+    font-size: 18px;
+}
+input,textarea{
+    width:80%;
+    height:50px;
+    border: none;
+    display: block;
+    margin-left: 50px;
+    padding:10px 15px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    color:#05386b;
+    font-size:14px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+form{
+    margin-top: 115px;
+    
+
+}
+form .form-group{
+    display: block;
+    margin-bottom: 15px;
+}
+.form-group:focus-within label{
+    color:#2481df;
+}
+textarea:focus,input:focus {
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
+.add{
+    width:80%;
+    height:35px;
+    border: none;
+    display: block;
+    margin-left: 50px;
+    padding:10px 15px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    color:#05386b;
+    font-size:14px;
+    margin-top: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+.recipe{
+    margin-left: 8%;
+    margin-top: 30px;
+    width:80%;
+    height:50px;
+    border: none;
+    background: #5cdb95;
+    border-radius: 8px;
+    color:#05386b;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.recipe:hover{
+    background-color: #95f0be;
+    cursor: pointer;
+ }

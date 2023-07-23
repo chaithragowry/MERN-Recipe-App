@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+      
+.main{
+    min-height: 100vh;
+    background-image: url(../images/img11.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+.main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.43);
+}
+.content{
+    width:100%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content .head{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content .para{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color:#7ddba8;
+    line-height: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.list-head{
+    margin:30px;
+    font-size: 25px;
+}
+.list{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+.details-head{
+    color:#05386b;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.food-list{
+   width:85vw;
+   margin-left: 10px;
+   height:auto; 
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+   place-items: center;
+}
+.details{
+    border-radius: 15px;
+    width: 400px;
+    height:600px;
+    margin:10px;
+    box-shadow:0px 3px 15px rgba(0,0,0,0.2);
+}
+.details:hover{
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.food-image{
+    width:400px;
+    height:250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h3{
+    color:#7ddba8;
+    font-size: 18px;
+    margin:20px;
+}
+.details-para{
+    text-align: justify;
+    margin: 20px;
+    color: #05386b;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.detail-para{
+    color:#7ddba8;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.save-recipe{
+    margin-left: 20px;
+    margin-top: 20px;
+    width:40%;
+    height:40px;
+    border: none;
+    background: #5cdb95;
+    border-radius: 8px;
+    color:#05386b;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.save-recipe:hover{
+    background-color: #81e9b0;
+}
+.save-recipe:disabled{
+    background: #5cdb95;
+    opacity: 0.5;
+    cursor: default;;
+}
